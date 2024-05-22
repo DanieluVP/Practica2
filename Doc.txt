@@ -1,0 +1,63 @@
+1.
+Para resolver el ejercicio, primero examinamos las funciones proporcionadas y su propósito en el código.
+Identificamos que hay tres funciones principales: sumaAlicuota, clasificarNumero, y categoriaPrograma, 
+cada una con un propósito específico en el proceso de categorización de códigos.
+sumaAlicuota calcula la suma de los divisores propios de un número dado. 
+Utiliza una lista de comprensión para generar todos los números menores que el número dado que son 
+divisores del mismo, luego suma esos números.
+
+clasificarNumero clasifica un número como "Perfecto," "Abundante" o "Deficiente" según si la suma de 
+sus divisores propios es igual a, mayor que, o menor que el número mismo, respectivamente.
+
+categoriaPrograma asigna una categoría específica ("Ingeniería," "Administrativo" o "Humanidades") 
+basada en la clasificación de un número dado.
+
+Además de estas funciones, hay una función analizarCodigo que toma un código entero, extrae 
+información relevante de él y lo formatea en una cadena de texto que representa el periodo,
+la categoría, el número de orden y la paridad del código.
+
+Finalmente, en la función main, se lee un código de entrada, se llama a analizarCodigo
+con ese código y se imprime el resultado.
+
+
+
+
+
+2. 
+
+El proceso de curación en la solución propuesta puede manifestarse de varias maneras:
+
+Refinamiento de algoritmos: Se puede mejorar la eficiencia de los algoritmos utilizados 
+para calcular la suma de divisores o clasificar los números, si es posible. Esto puede
+implicar el uso de técnicas más avanzadas de programación o algoritmos más eficientes.
+
+Manejo de errores: Se puede añadir manejo de errores para casos donde el usuario ingrese 
+datos no válidos, como cadenas en lugar de números, números negativos, o números muy 
+grandes que puedan causar desbordamiento.
+
+Optimización de código: Se pueden hacer ajustes para mejorar la legibilidad, 
+la eficiencia y la simplicidad del código. Esto podría implicar el uso de
+funciones auxiliares, reducción de redundancias o refactorización de código.
+
+
+3. 
+
+Clasificación de las funciones:
+
+sumaAlicuota: Esta función no es polimórfica ni de orden superior.
+No opera sobre tipos de datos polimórficos, ya que trabaja 
+específicamente con enteros. Tampoco toma funciones como 
+argumentos ni devuelve funciones como resultados, por lo que no es de orden superior.
+
+clasificarNumero: Tampoco es polimórfica ni de orden 
+superior. Al igual que sumaAlicuota, opera solo en números enteros y no toma
+ni devuelve funciones de orden superior.
+
+categoriaPrograma: Al igual que las dos funciones anteriores, 
+no es polimórfica ni de orden superior. Trabaja exclusivamente con 
+números enteros y no utiliza funciones de orden superior.
+
+analizarCodigo: Esta función tampoco es polimórfica ni de orden superior. 
+Opera en números enteros y no toma ni devuelve funciones de orden superior.
+Especifica el formato de salida basado en el tipo de datos de entrada,
+pero esto no la clasifica como polimórfica.
