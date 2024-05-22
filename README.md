@@ -1,6 +1,6 @@
 # Practica2
 
 
-# Daniel Urbano Viana Polo
+ Daniel Urbano Viana Polo
 
-# Juan David Mendiola Rios
+ Juan David Mendiola Rios
